@@ -19,7 +19,7 @@ prod-build:
 
 prod-run:
 	docker run --rm -it \
-	-p 4000:4001 \
+	-p 4000:4002 \
 	--env-file ./.env \
 	mutant-checker:prod
 
