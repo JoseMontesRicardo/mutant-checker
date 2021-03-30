@@ -5,7 +5,7 @@ go project
 
 Para correr este proyecto necesitas tener instalado Docker, ya que el ambiente de desarrollo está configurado con dicha herramienta.
 
-### 1. Instalación (MacOS, windows y linux).
+### 2. Instalación (MacOS, windows y linux).
 
 Para correr con Make usa el comando `make dev-start`;
 
@@ -31,7 +31,7 @@ $ docker run --rm -it \
 	test.com/mutant-checker:dev
 ```
 
-## 2. Configuración del entorno.
+## 3. Configuración del entorno.
 
 El proyecto usa las siguientes variables de entorno:
 
@@ -44,7 +44,7 @@ ALLOW_ORIGINS="http://localhost:4000;http://localhost:4001"
 ALLOW_HEADERS="content-type"
 ```
 
-### 1. Ejecución de tests.
+### 4. Ejecución de tests.
 
 Para ejecutar los tests debes tener go >=V1.14 instalado.
 
@@ -53,3 +53,9 @@ Para correr con Make usa el comando `make tests`;
 ```sh
 $ make tests
 ```
+
+### 5. Diagrama de secuencia.
+<p align="center"><img src="imgs/secuencia.svg" width="80%"></p>
+
+### 6. Diagrama de arquitectura.
+<p align="center"><img src="imgs/arquitectura.png" width="80%"></p>
