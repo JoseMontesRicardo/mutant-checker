@@ -42,6 +42,8 @@ Ejemplo del archivo .env
 API_URL=":4000"
 ALLOW_ORIGINS="http://localhost:4000;http://localhost:4001"
 ALLOW_HEADERS="content-type"
+ALLOW_HEADERS="content-type"
+DB_URL= // url de la DB con secretos
 ```
 
 ### 4. Ejecución de tests.
