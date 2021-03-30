@@ -54,6 +54,26 @@ Para correr con Make usa el comando `make tests`;
 $ make tests
 ```
 
+### 4. End-points.
+GET http://{URL}/v1/stats
+
+
+POST http://{URL}/v1/mutant
+```sh
+payload
+{
+    "dna": [
+        "ATGCGA",
+        "CAGTGC",
+        "TTATGT",
+        "AGAAGG",
+        "CCCCTA",
+        "TCACTC"
+    ]
+}
+```
+
+
 ### 5. Diagrama de secuencia.
 <p align="center"><img src="imgs/secuencia.svg" width="80%"></p>
 
