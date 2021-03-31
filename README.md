@@ -78,6 +78,7 @@ payload
 
 ### 5. Diagrama de secuencia.
 <p align="center"><img src="imgs/secuencia.svg" width="80%"></p>
+<p align="center"><img src="imgs/stats.svg" width="80%"></p>
 
 ### 6. Diagrama de arquitectura.
 <p align="center"><img src="imgs/arquitectura.png" width="80%"></p>
